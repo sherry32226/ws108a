@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" sizes="any"" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.thumbnail 
+{
+    float:center;
+    width:250px;
+    height:250px;
+    margin:5px;
+}
+
+body {
+  background-image: url( ' https://scontent.fkhh1-1.fna.fbcdn.net/v/t1.0-9/64329494_2319279155011595_2093140732473769984_o.jpg?_nc_cat=102&_nc_ht=scontent.fkhh1-1.fna&oh=ff828f60afbecf0187605336635d34b7&oe=5D824211 ' );
+  margin: 0px; 
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgb(119, 178, 218);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(75, 75, 75);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  color: #ffffff;
+  padding: 14px 16px;
+  background-color:  rgb(163, 202, 228);
+  font-family: rgb(75, 75, 75);
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: white;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(163, 202, 228);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: rgb(75, 75, 75);
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.show {
+  display: block;
+}
+.sidebar {
+  position: fixed;
+  top: 45px;
+  left: 0px;
+  width: 10px;
+  height: 1000px;
+  background-color:rgb(163, 202, 228) ;
+  color: white;
+  margin: 0px;
+  padding: 10px 5px;
+  white-space:nowrap;
+}
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+.sidebar li, .sidebar ul {
+  list-style-type: none;
+  margin: 5px 10px;
+  padding: 10px;
+}
+.sidebar {
+  transition: width 1s;
+ }
+.sidebar a:hover {
+  color: rgb(75, 75, 75);
+}
+.sidebar:hover {
+  width: 150px; 
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+<div class="sidebar">
+ <ul>
+ <li><a href="https://www.facebook.com/profile.php?id=100009589902970">Facebook</a></li>
+ <li><a href="https://www.instagram.com/?hl=zh-tw">Instagram</a></li>
+ 
+ </ul>
+</div>
+<div class="navbar">
+  <a href="https://sherry32226.github.io/wd107b/web.html">首頁</a>
+  <a href="https://sherry32226.github.io/wd107b/game.html">小遊戲</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">我在這裡
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="https://sherry32226.github.io/wd107b/exercise.html">第二次作業</a>
+    <a href="https://sherry32226.github.io/wd107b/exerecise2.html">第三次作業</a>
+    <a href="https://sherry32226.github.io/wd107b/me.html">第四次作業</a>
+    <a href="https://sherry32226.github.io/wd107b/me.html">第五次作業</a>
+  </div>
+  </div> 
+</div>
+
+<img src="https://scontent.fkhh1-1.fna.fbcdn.net/v/t1.0-9/64463712_2319499394989571_3049190634268131328_n.jpg?_nc_cat=100&_nc_ht=scontent.fkhh1-1.fna&oh=940e6de6f130fdd4fb1a0e1c39ff00d3&oe=5D80E73E" style="position:absolute;top:75px;right:775px;" width="575" height="275">
+<img src="https://scontent.fkhh1-2.fna.fbcdn.net/v/t1.0-9/62651135_2319504111655766_7747128022725033984_o.jpg?_nc_cat=108&_nc_ht=scontent.fkhh1-2.fna&oh=ceae650b5cd2330617c6cdcf6154198b&oe=5D8196EC" style="position:absolute;bottom:45px;right:200px;" width="700" height="300">
+
+</body>
+</html>
